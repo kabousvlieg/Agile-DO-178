@@ -1,0 +1,699 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.13)  14 JUN 2016 09:47
+entering extended mode
+**./sig-alternate-sample.tex
+(sig-alternate-sample.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+(sig-alternate-05-2015.cls
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count79
+))
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+\epsfxsize=\dimen104
+\epsfysize=\dimen105
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip41
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen106
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen107
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count80
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count81
+\leftroot@=\count82
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count83
+\DOTSCASE@=\count84
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count85
+\c@MaxMatrixCols=\count86
+\dotsspace@=\muskip10
+\c@parentequation=\count87
+\dspbrk@lvl=\count88
+\tag@help=\toks17
+\row@=\count89
+\column@=\count90
+\maxfields@=\count91
+\andhelp@=\toks18
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks19
+\multlinegap=\skip42
+\multlinetaggap=\skip43
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+Document Class 'sig-alternate' <9th June '13>. Modified by G.K.M. Tobin/Gerry M
+urray/Boris Veytsman
+Based in part upon document Style `acmconf' <22 May 89>. Hacked 4/91 by
+shivers@cs.cmu.edu, 4/93 by theobald@cs.mcgill.ca
+Excerpts were taken from (Journal Style) 'esub2acm.cls'.
+****** Bugs/comments/suggestions/technicalities to Gerry Murray -- murray@hq.ac
+m.org ******
+Questions on the style, SIGS policies, etc. to Adrienne Griscti griscti@acm.org
+
+\ACM@basesize=\count92
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\comment\comment.sty"
+\CommentStream=\write3
+
+Excluding comment 'comment') Excluding comment 'CCSXML'
+\footheight=\dimen115
+\@maxsep=\dimen116
+\@dblmaxsep=\dimen117
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+\aucount=\count93
+\originalaucount=\count94
+\auwidth=\dimen118
+\auskip=\dimen119
+\auskipcount=\count95
+\auskip=\dimen120
+\allauboxes=\dimen121
+\addauthors=\toks21
+\addauflag=\count96
+\subtitletext=\toks22
+\savesection=\count97
+\sectioncntr=\count98
+\c@figure=\count99
+\c@table=\count100
+\titleboxnotes=\toks23
+\titleboxnoteflag=\count101
+
+
+LaTeX Warning: You have requested document class `sig-alternate-05-2015',
+               but the document class provides `sig-alternate'.
+
+Document Class: sig-alternate 2013/05/12 v2.7 based on acmproc.cls V1.3 <Nov. 3
+0 '99>
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+\@acmtitlebox=\box28
+\titlenotecount=\count102
+\tntoks=\toks24
+\tntokstwo=\toks25
+\tntoksthree=\toks26
+\tntoksfour=\toks27
+\tntoksfive=\toks28
+\catcount=\count103
+\copyrightnotice=\toks29
+\conf=\toks30
+\confinfo=\toks31
+\c@part=\count104
+\c@section=\count105
+\c@subsection=\count106
+\c@subsubsection=\count107
+\c@paragraph=\count108
+
+Using 'Abbrev' bibliography style
+LaTeX Info: Redefining \cite on input line 1408.
+\bibindent=\dimen122
+\colcntr=\count109
+\saveb@x=\box29
+\copyrtyr=\toks32
+\acmcopyr=\toks33
+\boilerplate=\toks34
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (acmcopyright.sty
+Package: acmcopyright 2014/06/29 v1.2 Copyright statemens for ACM classes
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+\XKV@toks=\toks35
+\XKV@tempa@toks=\toks36
+)
+\XKV@depth=\count110
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+\copyrightetc=\toks37
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+)))
+(sig-alternate-sample.aux)
+\openout1 = `sig-alternate-sample.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count111
+\scratchdimen=\dimen123
+\scratchbox=\box30
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen124
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
+\everyMPtoPDFconversion=\toks39
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 55.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 55.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 55.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
+
+Excluding 'CCSXML' comment.
+LaTeX Font Info:    Try loading font information for OMS+aer on input line 104.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\omsaer.fd"
+File: omsaer.fd 1999/12/27
+)
+LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 104.
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--136
+\T1/aer/m/n/9 quire-ments. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--136
+\T1/aer/m/n/9 ware Life-cy-cle Pro-cesses". 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--136
+\T1/aer/m/n/9 with the end prod-uct [1]. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--136
+
+ []
+
+
+Overfull \hbox (5.4975pt too wide) in paragraph at lines 112--136
+\T1/aer/m/n/9 largely im-mune to ag-ile de-vel-op-ment prac-tices and still mai
+nly
+ []
+
+
+Underfull \hbox (badness 8075) in paragraph at lines 112--136
+\T1/aer/m/n/9 and ver-i-fi-ca-tion, with the ag-ile man-i-festo [3]: 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--136
+
+ []
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
+<DieBold2014.png, id=16, 511.9125pt x 469.00218pt>
+File: DieBold2014.png Graphic file (type png)
+ <use DieBold2014.png>
+Package pdftex.def Info: DieBold2014.png used on input line 143.
+(pdftex.def)             Requested size: 256.0748pt x 234.60786pt.
+
+Overfull \hbox (16.0748pt too wide) in paragraph at lines 143--144
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `AAMI_TIR45_2012' on page \thepage  undefined on input 
+line 165.
+
+
+LaTeX Warning: Citation `OPEN-DO_2010' on page \thepage  undefined on input lin
+e 167.
+
+[2 <./DieBold2014.png>] <Roles.png, id=22, 182.18062pt x 134.75343pt>
+File: Roles.png Graphic file (type png)
+
+<use Roles.png>
+Package pdftex.def Info: Roles.png used on input line 183.
+(pdftex.def)             Requested size: 170.71652pt x 126.27756pt.
+ <Teams.png, id=23, 362.10281pt x 217.5628pt>
+File: Teams.png Graphic file (type png)
+ <use Teams.png>
+Package pdftex.def Info: Teams.png used on input line 188.
+(pdftex.def)             Requested size: 256.0748pt x 153.85983pt.
+
+Overfull \hbox (16.0748pt too wide) in paragraph at lines 188--189
+ [][] 
+ []
+
+<Countries.png, id=24, 152.82094pt x 240.9pt>
+File: Countries.png Graphic file (type png)
+ <use Countries.png>
+Package pdftex.def Info: Countries.png used on input line 195.
+(pdftex.def)             Requested size: 142.26378pt x 224.26993pt.
+
+Overfull \hbox (3.96646pt too wide) in paragraph at lines 198--199
+\T1/aer/m/n/9 DO-178B spec-i-fi-ca-tion and haven't switched over to the newer
+ []
+
+<BvsC.png, id=25, 787.44188pt x 232.61906pt>
+File: BvsC.png Graphic file (type png)
+ <use BvsC.png>
+Package pdftex.def Info: BvsC.png used on input line 203.
+(pdftex.def)             Requested size: 256.0748pt x 75.64644pt.
+
+Overfull \hbox (16.0748pt too wide) in paragraph at lines 203--204
+ [][] 
+ []
+
+
+Overfull \hbox (4.78677pt too wide) in paragraph at lines 211--212
+[]\T1/aer/m/n/9 What was your last project's de-liv-ery date per-for-mance? 
+ []
+
+
+<What_was_your_last_projects_budget_performance.png, id=26, 632.3625pt x 213.04
+594pt>
+File: What_was_your_last_projects_budget_performance.png Graphic file (type png
+)
+ <use What_was_your_last_projects_budget_performance.png>
+Package pdftex.def Info: What_was_your_last_projects_budget_performance.png use
+d on input line 223.
+(pdftex.def)             Requested size: 256.0748pt x 86.27338pt.
+
+Overfull \hbox (16.0748pt too wide) in paragraph at lines 223--224
+ [][] 
+ []
+
+
+<What_was_your_last_projects_delivery_date_performance.png, id=27, 631.60968pt 
+x 149.05687pt>
+File: What_was_your_last_projects_delivery_date_performance.png Graphic file (t
+ype png)
+ <use What_was_your_last_projects_delivery_date_performance.png>
+Package pdftex.def Info: What_was_your_last_projects_delivery_date_performance.
+png used on input line 229.
+(pdftex.def)             Requested size: 256.0748pt x 60.43365pt.
+
+Overfull \hbox (16.0748pt too wide) in paragraph at lines 229--230
+ [][] 
+ []
+
+
+<How_many_features_was_delivered_according_to_the_original_specification.png, i
+d=28, 632.3625pt x 353.06906pt>
+File: How_many_features_was_delivered_according_to_the_original_specification.p
+ng Graphic file (type png)
+
+<use How_many_features_was_delivered_according_to_the_original_specification.pn
+g>
+Package pdftex.def Info: How_many_features_was_delivered_according_to_the_origi
+nal_specification.png used on input line 235.
+(pdftex.def)             Requested size: 256.0748pt x 142.97601pt.
+
+Overfull \hbox (16.0748pt too wide) in paragraph at lines 235--236
+ [][] 
+ []
+
+
+<Was_there_any_requests_for_additional_features_during_the_development.png, id=
+29, 631.60968pt x 231.11343pt>
+File: Was_there_any_requests_for_additional_features_during_the_development.png
+ Graphic file (type png)
+
+<use Was_there_any_requests_for_additional_features_during_the_development.png>
+Package pdftex.def Info: Was_there_any_requests_for_additional_features_during_
+the_development.png used on input line 241.
+(pdftex.def)             Requested size: 256.0748pt x 93.7027pt.
+
+Overfull \hbox (16.0748pt too wide) in paragraph at lines 241--242
+ [][] 
+ []
+
+
+<Was_there_any_requests_for_additional_features_after_certification_was_complet
+e.png, id=30, 633.11531pt x 243.91125pt>
+File: Was_there_any_requests_for_additional_features_after_certification_was_co
+mplete.png Graphic file (type png)
+
+<use Was_there_any_requests_for_additional_features_after_certification_was_com
+plete.png>
+Package pdftex.def Info: Was_there_any_requests_for_additional_features_after_c
+ertification_was_complete.png used on input line 247.
+(pdftex.def)             Requested size: 256.0748pt x 98.65697pt.
+
+Overfull \hbox (16.0748pt too wide) in paragraph at lines 247--248
+ [][] 
+ []
+
+<Does_increase_costs.png, id=31, 631.60968pt x 112.92188pt>
+File: Does_increase_costs.png Graphic file (type png)
+
+<use Does_increase_costs.png>
+Package pdftex.def Info: Does_increase_costs.png used on input line 253.
+(pdftex.def)             Requested size: 256.0748pt x 45.78307pt.
+
+Overfull \hbox (16.0748pt too wide) in paragraph at lines 253--254
+ [][] 
+ []
+
+<Cost_histogram.png, id=32, 364.36125pt x 220.57407pt>
+File: Cost_histogram.png Graphic file (type png)
+
+<use Cost_histogram.png>
+Package pdftex.def Info: Cost_histogram.png used on input line 258.
+(pdftex.def)             Requested size: 256.0748pt x 155.0268pt.
+
+Overfull \hbox (16.0748pt too wide) in paragraph at lines 258--259
+ [][] 
+ []
+
+[3 <./Roles.png> <./Teams.png> <./Countries.png> <./BvsC.png> <./What_was_your_
+last_projects_budget_performance.png>]
+
+LaTeX Warning: Text page \thepage  contains only floats.
+
+<Agile_waterfall_uptake.png, id=41, 263.48438pt x 76.03406pt>
+File: Agile_waterfall_uptake.png Graphic file (type png)
+
+<use Agile_waterfall_uptake.png>
+Package pdftex.def Info: Agile_waterfall_uptake.png used on input line 271.
+(pdftex.def)             Requested size: 170.71652pt x 49.26607pt.
+
+
+LaTeX Warning: Citation `AAMI_TIR45_2012' on page \thepage  undefined on input 
+line 288.
+
+
+LaTeX Warning: Citation `OPEN-DO_2010' on page \thepage  undefined on input lin
+e 288.
+
+<DO178_scrum.png, id=42, 578.16pt x 431.4519pt>
+File: DO178_scrum.png Graphic file (type png)
+ <use DO178_scrum.png>
+Package pdftex.def Info: DO178_scrum.png used on input line 292.
+(pdftex.def)             Requested size: 256.0748pt x 191.09027pt.
+
+Overfull \hbox (16.0748pt too wide) in paragraph at lines 292--293
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--301
+
+ []
+
+
+Overfull \hbox (6.63809pt too wide) in paragraph at lines 296--301
+\T1/aer/m/n/9 mul-ti-ple projects, if the projects are sim-i-lar enough off cou
+rse): 
+ []
+
+[4 <./What_was_your_last_projects_delivery_date_performance.png> <./How_many_fe
+atures_was_delivered_according_to_the_original_specification.png> <./Was_there_
+any_requests_for_additional_features_during_the_development.png> <./Was_there_a
+ny_requests_for_additional_features_after_certification_was_complete.png> <./Do
+es_increase_costs.png> <./Cost_histogram.png> <./Agile_waterfall_uptake.png>]
+<agile_setup.png, id=53, 578.16pt x 431.4519pt>
+File: agile_setup.png Graphic file (type png)
+ <use agile_setup.png>
+Package pdftex.def Info: agile_setup.png used on input line 347.
+(pdftex.def)             Requested size: 256.0748pt x 191.09027pt.
+
+Overfull \hbox (16.0748pt too wide) in paragraph at lines 347--348
+ [][] 
+ []
+
+
+Overfull \hbox (2.51591pt too wide) in paragraph at lines 365--365
+[]\secfnt RESEARCH DE-SIGN AND METHOD-OL-
+ []
+
+[5 <./DO178_scrum.png> <./agile_setup.png>]
+<agileWaterfallTeamActivities.png, id=59, 578.16pt x 431.4519pt>
+File: agileWaterfallTeamActivities.png Graphic file (type png)
+
+<use agileWaterfallTeamActivities.png>
+Package pdftex.def Info: agileWaterfallTeamActivities.png used on input line 37
+1.
+(pdftex.def)             Requested size: 256.0748pt x 191.09027pt.
+
+Overfull \hbox (16.0748pt too wide) in paragraph at lines 371--372
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `Linphone_2015' on page \thepage  undefined on input li
+ne 375.
+
+
+Overfull \hbox (5.51517pt too wide) in paragraph at lines 393--394
+\T1/aer/m/n/9 bers from both teams have some ex-pe-ri-ence with class projects
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--400
+
+ []
+
+[6 <./agileWaterfallTeamActivities.png>]
+<NormalisationExercise.png, id=64, 428.802pt x 231.86626pt>
+File: NormalisationExercise.png Graphic file (type png)
+
+<use NormalisationExercise.png>
+Package pdftex.def Info: NormalisationExercise.png used on input line 429.
+(pdftex.def)             Requested size: 256.0748pt x 138.47336pt.
+
+Overfull \hbox (16.0748pt too wide) in paragraph at lines 429--430
+ [][] 
+ []
+
+
+Overfull \hbox (1.59908pt too wide) in paragraph at lines 445--446
+\T1/aer/m/n/9 ap-prox-i-mately 50%, that is the wa-ter-fall team de-liv-ered tw
+ice
+ []
+
+
+LaTeX Warning: File `Project results.png' not found on input line 449.
+
+<Project results.png, id=65, 852.18375pt x 231.86626pt>
+File: Project results.png Graphic file (type png)
+
+<use Project results.png>
+Package pdftex.def Info: Project results.png used on input line 449.
+(pdftex.def)             Requested size: 256.0748pt x 69.67361pt.
+
+Overfull \hbox (16.0748pt too wide) in paragraph at lines 449--450
+ [] 
+ []
+
+
+Overfull \hbox (26.09569pt too wide) in paragraph at lines 456--456
+[]\secfnt DIFICULTIES THE TEAMS EN-COUN-TERED 
+ []
+
+[7 <./NormalisationExercise.png> <./Project results.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 508--510
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--512
+
+ []
+
+(sig-alternate-sample.bbl) [8] (sig-alternate-sample.aux) ) 
+Here is how much of TeX's memory you used:
+ 3315 strings out of 493335
+ 44752 string characters out of 3136656
+ 116391 words of memory out of 3000000
+ 6722 multiletter control sequences out of 15000+200000
+ 54972 words of font info for 77 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,10n,35p,952b,465s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x
+86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmti9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/h
+elvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/
+uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on sig-alternate-sample.pdf (8 pages, 788119 bytes).
+PDF statistics:
+ 109 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+

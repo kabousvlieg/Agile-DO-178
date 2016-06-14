@@ -1,0 +1,638 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.11)  12 JUN 2016 17:56
+entering extended mode
+**"./Agile DO-178.tex"
+("Agile DO-178.tex"
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ieeetran\IEEEtran.cls"
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpdimenC=\dimen104
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmpcountC=\count81
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen105
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen106
+\CLASSINFOnormalsizeunitybaselineskip=\dimen107
+\IEEEnormaljot=\dimen108
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen109
+\IEEEquantizedlengthdiff=\dimen110
+\IEEEquantizedtextheightdiff=\dimen111
+\IEEEilabelindentA=\dimen112
+\IEEEilabelindentB=\dimen113
+\IEEEilabelindent=\dimen114
+\IEEEelabelindent=\dimen115
+\IEEEdlabelindent=\dimen116
+\IEEElabelindent=\dimen117
+\IEEEiednormlabelsep=\dimen118
+\IEEEiedmathlabelsep=\dimen119
+\IEEEiedtopsep=\skip41
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@IEEEsubequation=\count86
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count87
+\c@table=\count88
+\@IEEEeqnnumcols=\count89
+\@IEEEeqncolcnt=\count90
+\@IEEEsubeqnnumrollback=\count91
+\@IEEEquantizeheightA=\dimen120
+\@IEEEquantizeheightB=\dimen121
+\@IEEEquantizeheightC=\dimen122
+\@IEEEquantizeprevdepth=\dimen123
+\@IEEEquantizemultiple=\count92
+\@IEEEquantizeboxA=\box26
+\@IEEEtmpitemindent=\dimen124
+\IEEEPARstartletwidth=\dimen125
+\c@IEEEbiography=\count93
+\@IEEEtranrubishbin=\box27
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count94
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks16
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\placeins\placeins.sty"
+Package: placeins 2005/04/18  v 2.2
+)
+("Agile DO-178.aux")
+\openout1 = `"Agile DO-178.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 358.
+LaTeX Font Info:    ... okay on input line 358.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 358.
+LaTeX Font Info:    ... okay on input line 358.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 358.
+LaTeX Font Info:    ... okay on input line 358.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 358.
+LaTeX Font Info:    ... okay on input line 358.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 358.
+LaTeX Font Info:    ... okay on input line 358.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 358.
+LaTeX Font Info:    ... okay on input line 358.
+
+-- Lines per column: 56 (exact).
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count95
+\scratchdimen=\dimen128
+\scratchbox=\box28
+\nofMPsegments=\count96
+\nofMParguments=\count97
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count98
+\MPscratchDim=\dimen129
+\MPnumerator=\count99
+\makeMPintoPDFobject=\count100
+\everyMPtoPDFconversion=\toks18
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.jpeg,.png,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmri7t!
+Missing character: There is no Ä in font ptmri7t!
+Missing character: There is no ú in font ptmri7t!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 472.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 472.
+
+Underfull \hbox (badness 2213) in paragraph at lines 448--472
+\OT1/ptm/m/n/10 [1]. Since the 1970s the de-vel-op-ment of soft-ware for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--472
+
+ []
+
+
+Underfull \hbox (badness 5374) in paragraph at lines 448--472
+\OT1/ptm/m/n/10 in-dus-try, MISRA (Mo-tor In-dus-try Soft-ware Re-li-a-bil-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--472
+
+ []
+
+
+Underfull \hbox (badness 4353) in paragraph at lines 448--472
+\OT1/ptm/m/n/10 for Soft-ware Con-sid-er-a-tions in Air-borne Sys-tems and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--472
+\OT1/ptm/m/n/10 Equip-ment Cer-ti-fi-ca-tion. MISRA has pub-lished the
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 448--472
+\OT1/ptm/m/n/10 MISRA-C:2012 [4] spec-i-fi-ca-tion for Guide-lines for the
+ []
+
+
+Underfull \hbox (badness 3623) in paragraph at lines 448--472
+\OT1/ptm/m/n/10 use of the C lan-guage in crit-i-cal sys-tems. ISO has
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 448--472
+\OT1/ptm/m/n/10 pub-lished the IEC 62304 [5] spec-i-fi-ca-tion for Med-i-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--472
+\OT1/ptm/m/n/10 De-vice Soft-ware - Soft-ware Life-cy-cle Pro-cesses. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--472
+
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 448--472
+\OT1/ptm/m/n/10 These stan-dards pre-scribe a strict ad-her-ence to pro-cess
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--472
+
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 448--472
+\OT1/ptm/m/n/10 min-i-mum op-er-a-tional per-for-mance mainly through rigid
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--472
+
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 448--472
+\OT1/ptm/m/it/10 We are un-cov-er-ing bet-ter ways of de-vel-op-ing soft-ware
+ []
+
+Missing character: There is no ‚ in font ptmri7t!
+Missing character: There is no Ä in font ptmri7t!
+Missing character: There is no ù in font ptmri7t!
+<DieBold2014.png, id=1, 511.9125pt x 469.00218pt>
+File: DieBold2014.png Graphic file (type png)
+ <use DieBold2014.png>
+Package pdftex.def Info: DieBold2014.png used on input line 479.
+(pdftex.def)             Requested size: 256.0748pt x 234.60786pt.
+
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 479--480
+ [][] 
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
+
+LaTeX Warning: Citation `AAMI_TIR45_2012' on page 2 undefined on input line 501
+.
+
+
+LaTeX Warning: Citation `OPEN-DO_2010' on page 2 undefined on input line 503.
+
+<Roles.png, id=12, 182.18062pt x 134.75343pt>
+File: Roles.png Graphic file (type png)
+ <use Roles.png>
+Package pdftex.def Info: Roles.png used on input line 519.
+(pdftex.def)             Requested size: 170.71652pt x 126.27756pt.
+
+<Teams.png, id=13, 362.10281pt x 217.5628pt>
+File: Teams.png Graphic file (type png)
+ <use Teams.png>
+Package pdftex.def Info: Teams.png used on input line 524.
+(pdftex.def)             Requested size: 256.0748pt x 153.85983pt.
+
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 524--525
+ [][] 
+ []
+
+<Countries.png, id=14, 152.82094pt x 240.9pt>
+File: Countries.png Graphic file (type png)
+ <use Countries.png>
+Package pdftex.def Info: Countries.png used on input line 531.
+(pdftex.def)             Requested size: 142.26378pt x 224.26993pt.
+ [2 <./DieBold2014.png>] <BvsC.png, id=19, 787.44188pt x 232.61906pt>
+File: BvsC.png Graphic file (type png)
+ <use BvsC.png>
+Package pdftex.def Info: BvsC.png used on input line 539.
+(pdftex.def)             Requested size: 256.0748pt x 75.64644pt.
+
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 539--540
+ [][] 
+ []
+
+
+<What_was_your_last_projects_budget_performance.png, id=20, 632.3625pt x 213.04
+594pt>
+File: What_was_your_last_projects_budget_performance.png Graphic file (type png
+)
+ <use What_was_your_last_projects_budget_performance.png>
+Package pdftex.def Info: What_was_your_last_projects_budget_performance.png use
+d on input line 557.
+(pdftex.def)             Requested size: 256.0748pt x 86.27338pt.
+
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 557--558
+ [][] 
+ []
+
+
+<What_was_your_last_projects_delivery_date_performance.png, id=21, 631.60968pt 
+x 149.05687pt>
+File: What_was_your_last_projects_delivery_date_performance.png Graphic file (t
+ype png)
+ <use What_was_your_last_projects_delivery_date_performance.png>
+Package pdftex.def Info: What_was_your_last_projects_delivery_date_performance.
+png used on input line 563.
+(pdftex.def)             Requested size: 256.0748pt x 60.43365pt.
+
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 563--564
+ [][] 
+ []
+
+
+<How_many_features_was_delivered_according_to_the_original_specification.png, i
+d=22, 632.3625pt x 353.06906pt>
+File: How_many_features_was_delivered_according_to_the_original_specification.p
+ng Graphic file (type png)
+
+<use How_many_features_was_delivered_according_to_the_original_specification.pn
+g>
+Package pdftex.def Info: How_many_features_was_delivered_according_to_the_origi
+nal_specification.png used on input line 569.
+(pdftex.def)             Requested size: 256.0748pt x 142.97601pt.
+
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 569--570
+ [][] 
+ []
+
+
+<Was_there_any_requests_for_additional_features_during_the_development.png, id=
+23, 631.60968pt x 231.11343pt>
+File: Was_there_any_requests_for_additional_features_during_the_development.png
+ Graphic file (type png)
+
+<use Was_there_any_requests_for_additional_features_during_the_development.png>
+Package pdftex.def Info: Was_there_any_requests_for_additional_features_during_
+the_development.png used on input line 575.
+(pdftex.def)             Requested size: 256.0748pt x 93.7027pt.
+
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 575--576
+ [][] 
+ []
+
+
+<Was_there_any_requests_for_additional_features_after_certification_was_complet
+e.png, id=24, 633.11531pt x 243.91125pt>
+File: Was_there_any_requests_for_additional_features_after_certification_was_co
+mplete.png Graphic file (type png)
+
+<use Was_there_any_requests_for_additional_features_after_certification_was_com
+plete.png>
+Package pdftex.def Info: Was_there_any_requests_for_additional_features_after_c
+ertification_was_complete.png used on input line 581.
+(pdftex.def)             Requested size: 256.0748pt x 98.65697pt.
+
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 581--582
+ [][] 
+ []
+
+<Does_increase_costs.png, id=25, 631.60968pt x 112.92188pt>
+File: Does_increase_costs.png Graphic file (type png)
+
+<use Does_increase_costs.png>
+Package pdftex.def Info: Does_increase_costs.png used on input line 587.
+(pdftex.def)             Requested size: 256.0748pt x 45.78307pt.
+
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 587--588
+ [][] 
+ []
+
+<Cost_histogram.png, id=26, 364.36125pt x 220.57407pt>
+File: Cost_histogram.png Graphic file (type png)
+
+<use Cost_histogram.png>
+Package pdftex.def Info: Cost_histogram.png used on input line 592.
+(pdftex.def)             Requested size: 256.0748pt x 155.0268pt.
+
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 592--593
+ [][] 
+ []
+
+[3 <./Roles.png> <./Teams.png> <./Countries.png> <./BvsC.png> <./What_was_your_
+last_projects_budget_performance.png> <./What_was_your_last_projects_delivery_d
+ate_performance.png>]
+<Agile_waterfall_uptake.png, id=36, 263.48438pt x 76.03406pt>
+File: Agile_waterfall_uptake.png Graphic file (type png)
+
+<use Agile_waterfall_uptake.png>
+Package pdftex.def Info: Agile_waterfall_uptake.png used on input line 605.
+(pdftex.def)             Requested size: 170.71652pt x 49.26607pt.
+
+
+LaTeX Warning: Citation `AAMI_TIR45_2012' on page 4 undefined on input line 620
+.
+
+
+LaTeX Warning: Citation `OPEN-DO_2010' on page 4 undefined on input line 620.
+
+<DO178_scrum.png, id=37, 578.16pt x 431.4519pt>
+File: DO178_scrum.png Graphic file (type png)
+ <use DO178_scrum.png>
+Package pdftex.def Info: DO178_scrum.png used on input line 624.
+(pdftex.def)             Requested size: 256.0748pt x 191.09027pt.
+
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 624--625
+ [][] 
+ []
+
+[4 <./How_many_features_was_delivered_according_to_the_original_specification.p
+ng> <./Was_there_any_requests_for_additional_features_during_the_development.pn
+g> <./Was_there_any_requests_for_additional_features_after_certification_was_co
+mplete.png> <./Does_increase_costs.png> <./Cost_histogram.png> <./Agile_waterfa
+ll_uptake.png>] <agile_setup.png, id=47, 578.16pt x 431.4519pt>
+File: agile_setup.png Graphic file (type png)
+
+<use agile_setup.png>
+Package pdftex.def Info: agile_setup.png used on input line 674.
+(pdftex.def)             Requested size: 256.0748pt x 191.09027pt.
+
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 674--675
+ [][] 
+ []
+
+<agileWaterfallTeamActivities.png, id=48, 578.16pt x 431.4519pt>
+File: agileWaterfallTeamActivities.png Graphic file (type png)
+
+<use agileWaterfallTeamActivities.png>
+Package pdftex.def Info: agileWaterfallTeamActivities.png used on input line 68
+6.
+(pdftex.def)             Requested size: 256.0748pt x 191.09027pt.
+
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 686--687
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `Linphone_2015' on page 5 undefined on input line 690.
+
+[5 <./DO178_scrum.png> <./agile_setup.png> <./agileWaterfallTeamActivities.png>
+]
+File: agileWaterfallTeamActivities.png Graphic file (type png)
+ <use agileWaterfallTeamActivities.png>
+Package pdftex.def Info: agileWaterfallTeamActivities.png used on input line 73
+1.
+(pdftex.def)             Requested size: 256.0748pt x 191.09027pt.
+
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 731--732
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 760--764
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 774--776
+
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 777--778
+\OT1/ptm/m/n/10 This study was com-pleted as par-tial ful-fil-ment of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 777--778
+
+ []
+
+("Agile DO-178.bbl"
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ß in font ptmr7t!
+)
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+[7
+
+] ("Agile DO-178.aux")
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2535 strings out of 493335
+ 43111 string characters out of 3136680
+ 109934 words of memory out of 3000000
+ 6039 multiletter control sequences out of 15000+200000
+ 36974 words of font info for 66 fonts, out of 3000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 37i,7n,23p,940b,234s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on "Agile DO-178.pdf" (7 pages, 682105 bytes).
+PDF statistics:
+ 80 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+

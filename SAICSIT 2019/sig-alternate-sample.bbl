@@ -1,0 +1,95 @@
+\begin{thebibliography}{10}
+
+\bibitem{Armbrust_2011}
+O.~Armbrust and D.~Rombach.
+\newblock The right process for each context: objective evidence needed, 2011.
+
+\bibitem{Bauer_1968}
+P.~D. F.~L. Bauer.
+\newblock Software engineering.
+\newblock In P.~Naur and B.~Randell, editors, {\em NATO SOFTWARE ENGINEERING
+  CONFERENCE 1968}, 1968.
+
+\bibitem{Beck_2001}
+K.~Beck, M.~Beedle, A.~Van~Bennekum, A.~Cockburn, W.~Cunningham, M.~Fowler,
+  J.~Grenning, J.~Highsmith, A.~Hunt, and R.~Jeffries.
+\newblock Manifesto for agile software development.
+\newblock 2001.
+
+\bibitem{Boehm_2003}
+Boehm and R.~Turner.
+\newblock {\em Balancing Agility and Discipline: A Guide for the Perplexed}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., 2003.
+
+\bibitem{Cardozo_2010}
+E.~Cardozo, J.~Neto, A.~Barza, A.~França, and F.~da~Silva.
+\newblock Scrum and productivity in software projects: a systematic literature
+  review.
+\newblock In {\em 14th International Conference on Evaluation and Assessment in
+  Software Engineering (EASE)}, 2010.
+
+\bibitem{Causevic_2011}
+A.~Causevic, D.~Sundmark, and S.~Punnekkat.
+\newblock Factors limiting industrial adoption of test driven development: A
+  systematic review.
+\newblock In {\em Software Testing, Verification and Validation (ICST), 2011
+  IEEE Fourth International Conference on}, pages 337--346, 2011.
+
+\bibitem{Diebold_2014}
+P.~Diebold and M.~Dahlem.
+\newblock Agile practices in practice: a mapping study, 2014.
+
+\bibitem{Fitzgerald_2013}
+B.~Fitzgerald, K.-J. Stol, R.~O, \#039, Sullivan, D.~O, \#039, and Brien.
+\newblock Scaling agile methods to regulated environments: an industry case
+  study, 2013.
+
+\bibitem{Glas_2009}
+M.~Glas and S.~Ziemer.
+\newblock Challenges for agile development of large systems in the aviation
+  industry, 2009.
+
+\bibitem{Hrgarek_2012}
+N.~Hrgarek.
+\newblock Certification and regulatory challenges in medical device software
+  development, 2012.
+
+\bibitem{Jordan_2006}
+P.~Jordan.
+\newblock Standard iec 62304 - medical device software - software lifecycle
+  processes.
+\newblock In {\em Software for Medical Devices, 2006. The Institution of
+  Engineering and Technology Seminar on}, pages 41--47, 2006.
+
+\bibitem{Larman_2003}
+C.~Larman and V.~R. Basili.
+\newblock Iterative and incremental developments. a brief history.
+\newblock {\em Computer}, 36(6):47--56, 2003.
+
+\bibitem{McDonald_2010}
+C.~McDonald.
+\newblock From art form to engineering discipline? a history of us military
+  software development standards, 1974\&amp;\#x2013;1998.
+\newblock {\em Annals of the History of Computing, IEEE}, 32(4):32--47, 2010.
+
+\bibitem{MISRA_2012}
+MISRA.
+\newblock Guidelines for the use of the c language in critical systems, 2004.
+
+\bibitem{RTCA_2012}
+I.~RTCA.
+\newblock Do-178c / ed-12c, 01/05/2012.
+
+\bibitem{Sfetsos_2010}
+P.~Sfetsos and I.~Stamelos.
+\newblock Empirical studies on quality in agile practices: A systematic
+  literature review.
+\newblock In {\em Quality of Information and Communications Technology
+  (QUATIC), 2010 Seventh International Conference on the}, pages 44--53, 2010.
+
+\bibitem{Shenvi_2014}
+M.~Shen, W.~Yang, G.~Rong, and D.~Shao.
+\newblock Applying agile methods to embedded software development: a systematic
+  review, 2012.
+
+\end{thebibliography}
