@@ -1,5 +1,8 @@
 \documentclass{sig-alternate-05-2015}
 
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+
 \begin{document}
 
 % Copyright
@@ -25,7 +28,7 @@
 
 %
 % --- Author Metadata here ---
-\conferenceinfo{Solms, Coetzee}{'16 Johannesburg, South Africa}
+\conferenceinfo{Coetzee, Solms}{'16 Johannesburg, South Africa}
 %\CopyrightYear{2007} % Allows default copyright year (20XX) to be over-ridden - IF NEED BE.
 %\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
 % --- End of Author Metadata ---
@@ -35,26 +38,26 @@
 \numberofauthors{2} %  in this sample file, there are a *total*
 \author{
 \alignauthor
-Dr Fritz Solms\\
-%      \titlenote{Advisor}\\
-	   \affaddr{Department of Computer Science}\\
-       \affaddr{Faculty of Engineering, Built Environment}\\
-       \affaddr{and Information Technology}\\
-       \affaddr{University of Pretoria}\\
-       \email{fsolms@cs.up.ac.za}  
-\alignauthor
 Kobus Coetzee\\
 %	   \titlenote{Researcher}\\
-       \affaddr{Graduate School of Technology Management}\\
-       \affaddr{Faculty of Engineering, Built Environment}\\
-       \affaddr{and Information Technology}\\
-       \affaddr{University of Pretoria}\\
-       \email{kobus@embeddedfool.net}
+\affaddr{Graduate School of Technology Management}\\
+\affaddr{Faculty of Engineering, Built Environment}\\
+\affaddr{and Information Technology}\\
+\affaddr{University of Pretoria}\\
+\email{kobus@embeddedfool.net}
+\alignauthor
+Dr Fritz Solms\\
+%      \titlenote{Advisor}\\
+\affaddr{Department of Computer Science}\\
+\affaddr{Faculty of Engineering, Built Environment}\\
+\affaddr{and Information Technology}\\
+\affaddr{University of Pretoria}\\
+\email{fsolms@cs.up.ac.za}  
 }
 
 \maketitle
 \begin{abstract}
-This study measures the feasibility of applying agile software development practices to high reliability software projects seeking DO-178 certification. This is done by comparing two student developer teams completing two projects according to the same specifications. One team uses traditional waterfall development methodologies while the other uses agile methodologies. The teams are compared on the Robustness, Functionality delivered, Solution complexity, Certification effort required, Lines of code, Word count and Quality of the documentation delivered (TODO Review).
+This study measured the feasibility of applying agile software development practices to high reliability software projects seeking DO-178 certification. We surveyed the current uptake of agile practices within DO-178 practicing communities, and did a case study comparing two student developer teams completing two projects according to the same specifications. One team used traditional waterfall development methodologies while the other used and agile methodology we proposed for use in safety critical and regulated industries. The teams were compared on the Robustness, Functionality delivered, Solution complexity, Lines of code, Word count and Quality of the documentation delivered. We found difficulties with the agile methodology, and provide a reference for further studies.
 \end{abstract}
 
 
@@ -112,16 +115,16 @@ This study measures the feasibility of applying agile software development pract
 Software development practices have progressed through a great many iterations since the first conference on software engineering sponsored and facilitated by NATO in 1968 \cite{Bauer_1968}. Since the 1970's the development of software for military use has been standardised by the US Department of Defence, eventually leading to the generation of thousands of military standards of the form MIL-STD's \cite{McDonald_2010}. These MIL-STD's for software developed eventually led to the creation of derivative standards for software development. 
 \break
 \break
-But since software engineering spans such a wide field, several best practices have developed for each field, with standards bodies regulating proper implementation of the practices, for example the RTCA (Radio Technical Commission for Aeronautics) specified standards being used in the aeronautical industry, MISRA (Motor Industry Software Reliability Association) specified standards being used in the automotive industry and the ISO (International Standards Organisation) regulating medical device software.  Both these standards body has as its objective to guide their industries to ensure the development of products that are safe, reliable, robust and adheres to minimum operational performance requirements.
+But since software engineering spans such a wide field of application domains, several best practices have developed for each field, with standards bodies regulating standard implementation of the practices for a particular domain; for example the RTCA (Radio Technical Commission for Aeronautics) specified standards being used in the aeronautical industry, MISRA (Motor Industry Software Reliability Association) specified standards being used in the automotive industry and the ISO (International Standards Organisation) regulating medical device software.  Both these standards bodies has as their objective to guide their industries to ensure the development of products that are safe, reliable, robust and adheres to minimum operational performance requirements. There is a tradeoff and that is that this comes at the cost of flexibility to adapt to changing requirements, cost increases and speed to market.
 \break
 \break
 The RTCA has published the DO-178C \cite{RTCA_2012} specification for "Software Considerations in Airborne Systems and Equipment Certification". MISRA has published the MISRA-C:2012 \cite{MISRA_2012} specification for "Guidelines for the use of the C language in critical systems". ISO has published the IEC 62304 \cite{Jordan_2006} specification for "Medical Device Software - Software Lifecycle Processes".
 \break
 \break
-These standards prescribe a strict adherence to process and fixed design and implementation life cycles, but software development best practises experienced a paradigm shift the last decade with the coming of agile methodologies. Software development methodologies such as Scrum and Kanban can in some ways be considered the agile equivalents to the RTCA and MISRA standards. Furthermore agile methodologies have been shown to mostly result in improved software delivery times, software quality and client satisfaction with the end product \cite{Armbrust_2011}.
+These standards prescribe a strict adherence to process and fixed design and implementation life cycles. However software development practices in other application development domains has moved towards increasing flexbility, improved software delivery times, software quality and client satisfaction through agile development methodologies\cite{Armbrust_2011}. Software development methodologies such as Scrum and Kanban can in some ways be considered the agile parallels to the RTCA and MISRA standards.
 \break
 \break
-Even so, agile development is only practiced in a certain subset of software industries, mainly consumer software development \cite{Diebold_2014}. Two software industries that have remained largely immune to agile development practices and still mainly done with 1970's era waterfall methodologies is military and safety critical software. Contrast for instance RTCA's and MISRA's focus on safety, reliability, robustness and minimum operational performance mainly through rigid process and verification, with the agile manifesto \cite{Beck_2001}:
+Even so, agile development is only practiced in a certain subset of software industries, mainly consumer software development \cite{Diebold_2014}. Two software industries that have remained largely immune to agile development practices and still mainly done with 1970's era waterfall methodologies is military and safety critical software. Contrast for instance RTCA's and MISRA's focus on safety, reliability, robustness and minimum operational performance mainly through rigid process and verification, with the agile manifesto:
 \break
 \break
 \textit{
@@ -133,7 +136,9 @@ Even so, agile development is only practiced in a certain subset of software ind
 		\item Responding to change over Following a plan
 	\end{itemize}
 	That is, while there is value in the items on the right, we value the items on the left more."
-}
+}\cite{Beck_2001}
+
+As such, applying agile methodologies to safety critical and regulated industries requires careful considerations of the tradeoffs that agile ethodologies bring to the software development process.
 
 \section{Literature survey}
 Very little research has been generated on the application of agile methods to highly regulated industries. Diebold \cite{Diebold_2014} did systematic study on agile penetration in various industries.
@@ -144,17 +149,15 @@ Very little research has been generated on the application of agile methods to h
 	\caption{Agile distribution across domains \cite{Diebold_2014} \label{overflow}}
 \end{figure}
 
-Note the low occurrence of agile in the automation and medical industries. But problematic also is getting to a clear definition of what exactly agile software development entails. If the difference can only be regarded as iterative vs. incremental development practices, then agile methods have been in development since the 1970's \cite{Larman_2003}. The latest iteration and most popular form of agile methods takes the shape of SCRUM, a process which specifies short development sprints of roughly two weeks in which certain developmental goals are specified and the team attempts to satisfy these goals. Cardazo \cite{Cardozo_2010} did a literature review and found SCRUM did to lead to productivity improvements, but did not investigate if organisational make-up or the industry the company operates in have any effect. Also these findings are still very recent, and more in depth analysis is required.   
+Note the low occurrence of agile in the automation and medical industries. But problematic also is getting to a clear definition of what exactly agile software development entails. If the difference can only be regarded as iterative vs. incremental development practices, then agile methods have been in development since the 1970's \cite{Larman_2003}. The current most popular agile development methodology is SCRUM, a process which specifies short development sprints of roughly two weeks in which certain developmental goals are specified and the team attempts to satisfy these goals. Cardazo \cite{Cardozo_2010} did a literature review and found SCRUM did to lead to productivity improvements, but did not investigate if organisational make-up or the industry the company operates in have any effect. Also these findings are still very recent, and more in depth analysis is required.   
 
-A couple of case studies have been performed on implementing agile methodologies in regulated industries. Fitzgerald \cite{Fitzgerald_2013} found tension points when implementing a SCRUM process in a case study where the company and product had to comply with several FDA, ISO, IEC and ISPE regulations. These tension points were in quality assurance, safety and security, effectiveness, traceability, verification and validation. But even so it was found that agile can be suitable and even bring about improvements to regulated industry if tailored correctly. 
+A couple of case studies have been performed on implementing agile methodologies in regulated industries. Fitzgerald \cite{Fitzgerald_2013} found tension points when implementing a SCRUM process in a case study where the company and product had to comply with several FDA, ISO, IEC and ISPE regulations. These tension points were in quality assurance, safety and security, effectiveness, traceability, verification and validation. This is not surprising since agile trades off flexibility and time to market for decreased performance in these very attributes. As such a pure agile process is not suitable for safety critical or regulated software development, but agile methodologies can be made suitable and even bring about improvements to these industries if tailored correctly. 
 
-Shenvi \cite{Shenvi_2014} also investigated if improvements can be made in the development of medical equipment when employing techniques from six sigma and agile, while complying with regulatory standards. A theoretical model was developed, and employed as a case study, resulting in improvements in productivity and a decrease in defects in the final product in the period the model was used between 2010 and 2013. It is unknown if wider applicability of the model exists for other industries with other certification requirements. 
+Shenvi \cite{Shenvi_2014} also investigated if improvements can be made in the development of medical equipment software when employing techniques from six sigma and agile, while complying with regulatory standards. A theoretical model was developed, and employed as a case study, resulting in improvements in productivity and a decrease in defects in the final product software in the period the model was used between 2010 and 2013. It is unknown if wider applicability of the model exists for other industries with other certification requirements. 
 
-Hrgarek \cite{Hrgarek_2012} pointed to further difficulties companies face in the medical device manufacturing industry when trying to employ agile methods while staying compliant with regulations. It is unclear if the case study was successful in employing agile methods into the development process.
+Hrgarek \cite{Hrgarek_2012} pointed to further difficulties companies face in the medical device software industry when trying to employ agile methods while staying compliant with regulations. It is unclear if the case study was successful in employing agile methods into the development process.
 
-Glas \cite{Glas_2009} investigated a case in the application of agile methods in a aviation manufacturing setting, and identified open tool platforms and open design to be beneficial. The paper also mentioned regulatory difficulties as a problem for agile adoption, although this was not the focus of the study. 
-
-In addition to agile methodologies such as SCRUM and Kanban etc, improvements have been made in developmental tools that aid in agile development. These tools include agile centric project management software, CI (Continuous integration), CD (Continuous deployment), Unit testing, TDD (Test driven development), BDD (Behaviour driven development), pair programming and others. 
+Glas \cite{Glas_2009} investigated a case in the application of agile methods in a aviation manufacturing setting, and identified open tool platforms and open design to be beneficial. The paper also mentioned regulatory difficulties as a problem for agile adoption, although this was not the focus of the study.  
 
 Sfetsos \cite{Sfetsos_2010} did a literature survey and investigated which of the different agile tools does indeed provide improvements in product quality, and found TDD and pair programming to be beneficial. It should be noted that the study was performed in 2010, and a lot of improvements to agile has happened since then.
 
@@ -164,7 +167,9 @@ Boehm \cite{Boehm_2003} shows that a balance between planned and agile methodolo
 
 But even with the relatively slow uptake of agile in DO-178 projects, some work has been done on what high reliability agile would look like. The FDA (US Food and Drug Administration) released TIR45 \cite{AAMI_TIR45_2012}, which prescribes the application of agile software development practices for the development of safety critical medical devices seeking IEC 62304 certification. 
 
-Furthermore Open-DO \cite{OPEN-DO_2010} is an initiative for the discussion of the application of agile methodologies to the DO-178C specification. Open-DO is facilitated a conference in 2010 in France for this purpose amongst others.     
+Furthermore Open-DO \cite{OPEN-DO_2010} is an initiative for the discussion of the application of agile methodologies to the DO-178C specification. Open-DO is facilitated a conference in 2010 in France for this purpose amongst others. 
+
+In addition to agile methodologies such as SCRUM and Kanban that can be thought of a bigger strategies that might be able to replace the waterfall process that is traditionally followed in safety critical software development, improvements have also been made in developmental tools that aid in agile development. These tools can be thought of as tactics and include agile centric project management software, CI (Continuous integration), CD (Continuous deployment), Unit testing, TDD (Test driven development), BDD (Behaviour driven development), pair programming and others. So while the strategies (Scrum, Kanban, Waterfall) is mostly mutually exclusive, these tactics (TDD, CI, CD etc) is mostly interchangeable and deciding on the adoption of these tactics can be evaluated on the tradeoffs involved that is important to a project.    
 
 \section{Survey on agile uptake in DO-178 projects}
 For the purposes of this study survey responses were collected to answer the following questions about the current state of the DO-178 certified software industry:
@@ -177,10 +182,21 @@ For the purposes of this study survey responses were collected to answer the fol
 The survey was advertised on various DO-178 special interest groups and mailing lists, technical news aggregator sites as well emails sent to the authors personal contacts active with DO-178 development (This explains the high amount of South African respondents).
 
 The survey was completed by 88 respondents, in various roles, with various team sizes and in various countries:
-\begin{table}[t!]
+\begin{table}[]
 	\centering
 	\caption{Roles}
-	\includegraphics[width=60mm]{Roles.png}
+	\label{Roles}
+	\begin{tabular}{l|l}
+		Client          			& 0    \\
+		Project manager 			& 26   \\
+		System architect 			& 7    \\
+		Developer 					& 25   \\
+		Quality assurance 			& 9    \\
+		Configuration management 	& 1    \\
+		Tester 						& 11   \\
+		Certification authority 	& 10   \\
+		Independant contractor 		& 6  
+	\end{tabular}
 \end{table}
 
 \begin{figure}[t!]
@@ -189,10 +205,28 @@ The survey was completed by 88 respondents, in various roles, with various team 
 	\caption{Team size}
 \end{figure}
 
-\begin{table}[t!]
+\begin{table}[]
 	\centering
 	\caption{Countries}
-	\includegraphics[width=50mm]{Countries.png}
+	\label{Countries}
+	\begin{tabular}{l|l}
+		USA  	        & 30 \\
+		South Africa	& 16 \\
+		France			& 8  \\
+		Turkey	 		& 6  \\
+		Europe			& 5  \\
+		UK				& 5  \\
+		Canada		 	& 4  \\
+		Germany			& 3  \\
+		India		 	& 3  \\
+		Poland		 	& 2  \\
+		Russia		 	& 2  \\
+		Spain		 	& 2  \\
+		Brazil		 	& 1  \\
+		Israel		 	& 1  \\
+		New Zealand	 	& 1  \\
+		Norway		 	& 1  \\
+	\end{tabular}
 \end{table}
 
 Most respondents indicated they are still following the DO-178B specification and haven't switched over to the newer DO-178C specification which was released in January 2012.
@@ -265,10 +299,17 @@ We also wanted to find out to which extent agile techniques were already being p
 
 We also asked the respondents if they felt the development approach was helpful or not in their completion of their projects:
 
-\begin{table}[t!]
+\begin{table}[]
 	\centering
 	\caption{Waterfall vs agile use}
-	\includegraphics[width=60mm]{Agile_waterfall_uptake.png}
+	\label{Waterfall vs agile use}
+	\begin{tabular}{l|llll}
+		& Used & Helpful & Not sure & Not helpful \\ \hline
+		Waterfall & 81\% & 44\%    & 18\%     & 19\%        \\
+		Scrum     & 27\% & 22\%    & 3\%      & 2\%         \\
+		Kanban    & 22\% & 15\%    & 5\%      & 2\%        	\\
+		RUP       & 31\% & 23\%    & 5\%      & 5\% 
+	\end{tabular}
 \end{table}
 
 Note the percentages do not necessarily add up, as respondents may have filled in for multiple projects or multiple approaches may have been used within the same project (subcomponents for instance).    
@@ -285,7 +326,7 @@ Off course these benchmarks presents difficulties of their own, such as inconsis
 
 \section{Conceptual model}
 
-The following conceptual model were developed, taking inputs from TIR45 \cite{AAMI_TIR45_2012} and Open-DO \cite{OPEN-DO_2010}, but also taking general agile development principles, especially SCRUM and applying it to the required DO-178 outputs and objectives.
+The following conceptual model were developed, taking inputs from TIR45 \cite{AAMI_TIR45_2012} and Open-DO \cite{OPEN-DO_2010}, but also taking general agile development principles, especially SCRUM and applying it to the required DO-178 outputs and objectives. Careful considerations were made to take into account the tradeoffs involved, while not sacrificing safety and traceability considerations.
 
 \begin{figure}[t!]
 	\centering 
@@ -293,7 +334,7 @@ The following conceptual model were developed, taking inputs from TIR45 \cite{AA
 	\caption{Agile DO-178 framework}
 \end{figure}
 
-The conceptual model is focused on bringing continuous integration and continuous deployment to a DO-178 environment. The purposes is to reduce costs through automation of repeated processes. Since DO-178B is a software quality assurance standard, not a software development standard, it does not impose any restrictions or considerations on how software is to be developed. It does however require the following list of deliverables, with the requirements for each depending on the criticality level chosen:
+The conceptual model is focused on bringing continuous integration and continuous deployment to a DO-178 environment. The purposes is to reduce costs, risks and increase flexibility through automation of repeated processes. Since DO-178B is a software quality assurance standard, not a software development standard, it does not impose any restrictions or considerations on how software is to be developed. It does however require the following list of deliverables, with the requirements for each depending on the criticality level chosen:
 \\
 \\
 \textbf{Organisational deliverables}
@@ -364,7 +405,7 @@ To limit the scope of the case study (since it was after all only a student proj
 
 \section{Research design and methodology}
 
-In order to test the effect that a more agile project management approach would have on a project requiring DO-178 certification, a case study was launched. In this case study two 3'rd year student teams developed and delivered a project according to exactly the same specification, with the one team running the agile workflow and the other a more traditional waterfall workflow.  
+In order to test the effect that a more agile project management approach would have on a project requiring DO-178 certification, a case study was launched. In this case study two 3'rd year student teams developed and delivered a capstone project according to exactly the same specification, with the one team running the agile workflow and the other a more traditional waterfall workflow.  
 
 \begin{figure}[t!]
 	\centering 
@@ -430,7 +471,7 @@ The results from the case study were normalised to account for the differing ski
 	\caption{Normalisation results}
 \end{figure}  
 
-From the normalisation exercise we can account for the differences in the teams by a factor of 26\% for code bulk, and 38\% for documentation word count. Qualitative comparison for instance documentation quality and robustness of their solution is difficult to account for but it is assumed the difference will be about the same as it is too a function of the teams ability and work ethic.
+From the normalisation exercise we can account for the differences in the teams by a factor of 26\% for code bulk, and 38\% for documentation word count. Qualitative comparison for instance documentation quality and robustness of their solution is difficult to account for but it is assumed the difference will be about the same as it too is a function of the teams ability and work ethic.
 
 \section{Results}
 
@@ -451,7 +492,7 @@ From these quantitative measures the teams differed by approximately 50\%, that 
 \end{figure}
 
 
-With project completion both teams demonstrated their projects to industry and their academic study leaders. During the demonstration the waterfall teams project delivered more functionality and held up better under testing. On the other hand the agile team project had a better user experience compared to the waterfall project. 
+With project completion both teams demonstrated their projects to industry and their academic study leaders. During the demonstration the waterfall teams project delivered more functionality and held up better under testing. On the other hand the agile team project had a better user experience compared to the waterfall project, but contained an architectual weakness, a single point of failure in the design.
 
 \section{Dificulties the teams encountered} 
 
@@ -474,9 +515,11 @@ The team also had difficulty with a test driven development methodology, and sub
 \section{Conclusion}
 One cannot generalise from a single case study, and as such this study cannot speak with sufficient authority on the effectiveness of agile development methodologies versus traditional waterfall methodologies. Nevertheless this study does hint that agile development is not a silver bullet for all project types, and this might explain its poor adoption in highly regulated and safety critical industries. 
 
-There is value in the methodology that waterfall forces on a team, especially in getting a team to do proper scoping of the project and in doing so getting comfortable with the domain of the work.
+There is value in the methodology that waterfall forces on a team, especially in getting a team to do proper scoping and architecting of the solution, and in doing so getting the team comfortable with the application domain. This study proposed a variant of agile that was followed in the case study. The agile team had shorter iteration cycles than the waterfall approach, but had an architectual weakness. Since quality attributes of the software is so important for safety critical and regulated industries, it indicates that more emphasis on architectual design is required in this model. 
 
-This case study was uncontrolled for the effect that a green field vs brown field project have on the result. The case study was done on a very mature and large existing project. Furthermore some of the difficulties the teams faced stemmed from their inexperience, which might also affect the results of this study. 
+The case study was uncontrolled for the effect that a green field vs brown field project have on the result. The case study was done on a very mature and large existing project. Furthermore some of the difficulties the teams faced stemmed from their inexperience, which might also affect the results of this study. 
+
+The study also had two further weaknesses. The first is that the survey had difficulty measuring agile uptake in the industry because of the poor understanding of the definition of agile amongst respondents. Furthermore even though the case study normalises the results to account for the differences in team strengths, it is unknown if the differences scales linearly between the normalisation exercise and the final case study results.  
 
 The true value this case study provides is as a reference for further investigation into the effectiveness of agile and waterfall methodologies, and some of the pitfalls one can avoid when conducting such a study. Additional studies can be used to compare results with this one, and in so doing build a case for the effectiveness in either agile or waterfall development practises, especially in safety critical and regulated environments. 
 
