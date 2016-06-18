@@ -115,13 +115,13 @@ This study measured the feasibility of applying agile software development pract
 Software development practices have progressed through a great many iterations since the first conference on software engineering sponsored and facilitated by NATO in 1968 \cite{Bauer_1968}. Since the 1970's the development of software for military use has been standardised by the US Department of Defence, eventually leading to the generation of thousands of military standards of the form MIL-STD's \cite{McDonald_2010}. These MIL-STD's for software developed eventually led to the creation of derivative standards for software development. 
 \break
 \break
-But since software engineering spans such a wide field of application domains, several best practices have developed for each field, with standards bodies regulating standard implementation of the practices for a particular domain; for example the RTCA (Radio Technical Commission for Aeronautics) specified standards being used in the aeronautical industry, MISRA (Motor Industry Software Reliability Association) specified standards being used in the automotive industry and the ISO (International Standards Organisation) regulating medical device software.  Both these standards bodies has as their objective to guide their industries to ensure the development of products that are safe, reliable, robust and adheres to minimum operational performance requirements. There is a tradeoff and that is that this comes at the cost of flexibility to adapt to changing requirements, cost increases and speed to market.
+But since software engineering spans such a wide field of application domains, several best practices have developed for each field, with standards bodies regulating standard implementation of the practices for a particular domain; for example the RTCA (Radio Technical Commission for Aeronautics) specified standards being used in the aeronautical industry, MISRA (Motor Industry Software Reliability Association) specified standards being used in the automotive industry and the ISO (International Standards Organisation) regulating medical device software.  Both these standards bodies have as their objective to guide their industries to ensure the development of products that are safe, reliable, robust and adheres to minimum operational performance requirements. There is a trade-off and that is that this comes at the cost of flexibility to adapt to changing requirements, cost increases and speed to market.
 \break
 \break
 The RTCA has published the DO-178C \cite{RTCA_2012} specification for "Software Considerations in Airborne Systems and Equipment Certification". MISRA has published the MISRA-C:2012 \cite{MISRA_2012} specification for "Guidelines for the use of the C language in critical systems". ISO has published the IEC 62304 \cite{Jordan_2006} specification for "Medical Device Software - Software Lifecycle Processes".
 \break
 \break
-These standards prescribe a strict adherence to process and fixed design and implementation life cycles. However software development practices in other application development domains has moved towards increasing flexbility, improved software delivery times, software quality and client satisfaction through agile development methodologies\cite{Armbrust_2011}. Software development methodologies such as Scrum and Kanban can in some ways be considered the agile parallels to the RTCA and MISRA standards.
+These standards prescribe a strict adherence to process and fixed design and implementation life cycles. However, software development practices in other application development domains has moved towards increasing flexibility, improved software delivery times, software quality and client satisfaction through agile development methodologies\cite{Armbrust_2011}. Software development methodologies such as Scrum and Kanban can in some ways be considered the agile parallels to the RTCA and MISRA standards.
 \break
 \break
 Even so, agile development is only practiced in a certain subset of software industries, mainly consumer software development \cite{Diebold_2014}. Two software industries that have remained largely immune to agile development practices and still mainly done with 1970's era waterfall methodologies is military and safety critical software. Contrast for instance RTCA's and MISRA's focus on safety, reliability, robustness and minimum operational performance mainly through rigid process and verification, with the agile manifesto:
@@ -138,7 +138,7 @@ Even so, agile development is only practiced in a certain subset of software ind
 	That is, while there is value in the items on the right, we value the items on the left more."
 }\cite{Beck_2001}
 
-As such, applying agile methodologies to safety critical and regulated industries requires careful considerations of the tradeoffs that agile ethodologies bring to the software development process.
+As such, applying agile methodologies to safety critical and regulated industries requires careful considerations of the trade-offs that agile methodologies bring to the software development process.
 
 \section{Literature survey}
 Very little research has been generated on the application of agile methods to highly regulated industries. Diebold \cite{Diebold_2014} did systematic study on agile penetration in various industries.
@@ -157,7 +157,7 @@ Shenvi \cite{Shenvi_2014} also investigated if improvements can be made in the d
 
 Hrgarek \cite{Hrgarek_2012} pointed to further difficulties companies face in the medical device software industry when trying to employ agile methods while staying compliant with regulations. It is unclear if the case study was successful in employing agile methods into the development process.
 
-Glas \cite{Glas_2009} investigated a case in the application of agile methods in a aviation manufacturing setting, and identified open tool platforms and open design to be beneficial. The paper also mentioned regulatory difficulties as a problem for agile adoption, although this was not the focus of the study.  
+Glas \cite{Glas_2009} investigated a case in the application of agile methods in an aviation manufacturing setting, and identified open tool platforms and open design to be beneficial. The paper also mentioned regulatory difficulties as a problem for agile adoption, although this was not the focus of the study.  
 
 Sfetsos \cite{Sfetsos_2010} did a literature survey and investigated which of the different agile tools does indeed provide improvements in product quality, and found TDD and pair programming to be beneficial. It should be noted that the study was performed in 2010, and a lot of improvements to agile has happened since then.
 
@@ -167,9 +167,9 @@ Boehm \cite{Boehm_2003} shows that a balance between planned and agile methodolo
 
 But even with the relatively slow uptake of agile in DO-178 projects, some work has been done on what high reliability agile would look like. The FDA (US Food and Drug Administration) released TIR45 \cite{AAMI_TIR45_2012}, which prescribes the application of agile software development practices for the development of safety critical medical devices seeking IEC 62304 certification. 
 
-Furthermore Open-DO \cite{OPEN-DO_2010} is an initiative for the discussion of the application of agile methodologies to the DO-178C specification. Open-DO is facilitated a conference in 2010 in France for this purpose amongst others. 
+Furthermore, Open-DO \cite{OPEN-DO_2010} is an initiative for the discussion of the application of agile methodologies to the DO-178C specification. Open-DO is facilitated a conference in 2010 in France for this purpose amongst others. 
 
-In addition to agile methodologies such as SCRUM and Kanban that can be thought of a bigger strategies that might be able to replace the waterfall process that is traditionally followed in safety critical software development, improvements have also been made in developmental tools that aid in agile development. These tools can be thought of as tactics and include agile centric project management software, CI (Continuous integration), CD (Continuous deployment), Unit testing, TDD (Test driven development), BDD (Behaviour driven development), pair programming and others. So while the strategies (Scrum, Kanban, Waterfall) is mostly mutually exclusive, these tactics (TDD, CI, CD etc) is mostly interchangeable and deciding on the adoption of these tactics can be evaluated on the tradeoffs involved that is important to a project.    
+In addition to agile methodologies such as SCRUM and Kanban that can be thought of as strategies that might be able to replace the waterfall process in safety critical software development, improvements have also been made in developmental tools that aid in agile development. These tools can be thought of as tactics and include agile centric project management software, CI (Continuous integration), CD (Continuous deployment), Unit testing, TDD (Test driven development), BDD (Behaviour driven development), pair programming and others. So while the strategies (Scrum, Kanban, Waterfall) is mostly mutually exclusive, these tactics (TDD, CI, CD etc.) is mostly interchangeable and deciding on the adoption of these tactics can be evaluated on the trade-offs involved that is important to a project.    
 
 \section{Survey on agile uptake in DO-178 projects}
 For the purposes of this study survey responses were collected to answer the following questions about the current state of the DO-178 certified software industry:
@@ -195,7 +195,7 @@ The survey was completed by 88 respondents, in various roles, with various team 
 		Configuration management 	& 1    \\
 		Tester 						& 11   \\
 		Certification authority 	& 10   \\
-		Independant contractor 		& 6  
+		Independent contractor 		& 6  
 	\end{tabular}
 \end{table}
 
@@ -322,11 +322,11 @@ To measure the case study performance, the following benchmarks were gathered fr
 	\item What is your bugs per 1000 lines of code?
 \end{itemize}
 
-Off course these benchmarks presents difficulties of their own, such as inconsistent measuring, but the hope was that the benchmarks could be used as a measure to compare with the case study discussed later. Unfortunately this proved not to be that helpful.
+Off course these benchmarks presents difficulties of their own, such as inconsistent measuring, but the hope was that the benchmarks could be used as a measure to compare with the case study discussed later. Unfortunately, this proved not to be that helpful.
 
 \section{Conceptual model}
 
-The following conceptual model were developed, taking inputs from TIR45 \cite{AAMI_TIR45_2012} and Open-DO \cite{OPEN-DO_2010}, but also taking general agile development principles, especially SCRUM and applying it to the required DO-178 outputs and objectives. Careful considerations were made to take into account the tradeoffs involved, while not sacrificing safety and traceability considerations.
+The following conceptual model were developed, taking inputs from TIR45 \cite{AAMI_TIR45_2012} and Open-DO \cite{OPEN-DO_2010}, but also taking general agile development principles, especially SCRUM and applying it to the required DO-178 outputs and objectives. Careful considerations were made to take into account the trade-offs involved, while not sacrificing safety and traceability considerations.
 
 \begin{figure}[t!]
 	\centering 
@@ -334,7 +334,7 @@ The following conceptual model were developed, taking inputs from TIR45 \cite{AA
 	\caption{Agile DO-178 framework}
 \end{figure}
 
-The conceptual model is focused on bringing continuous integration and continuous deployment to a DO-178 environment. The purposes is to reduce costs, risks and increase flexibility through automation of repeated processes. Since DO-178B is a software quality assurance standard, not a software development standard, it does not impose any restrictions or considerations on how software is to be developed. It does however require the following list of deliverables, with the requirements for each depending on the criticality level chosen:
+The conceptual model is focused on bringing continuous integration and continuous deployment to a DO-178 environment. The purpose is to reduce costs, risks and increase flexibility through automation of repeated processes. Since DO-178B is a software quality assurance standard, not a software development standard, it does not impose any restrictions or considerations on how software is to be developed. It does however require the following list of deliverables, with the requirements for each depending on the criticality level chosen:
 \\
 \\
 \textbf{Organisational deliverables}
@@ -389,7 +389,7 @@ The automated generation of some of these deliverables requires the development 
 	\caption{Agile infrastructure}
 \end{figure}
 
-These automated generated outputs still has to comply with the DO-178 requirements on outputs as stipulated in the Annex A of the specification.
+These automated generated outputs still have to comply with the DO-178 requirements on outputs as stipulated in the Annex A of the specification.
 
 To limit the scope of the case study (since it was after all only a student project), only the following deliverables were required:
 \begin{itemize}
@@ -415,7 +415,7 @@ In order to test the effect that a more agile project management approach would 
 
 The teams were tasked with developing group chat functionality for the Linphone open source project \cite{Linphone_2015}, and the final deliverable were measured for robustness of the solution, functionality delivered, maintainability, code bulk and the documentation bulk delivered.
 
-Robustment were determined with independent functional testing of the solution, as well as the amount of unit tests and functional tests each team generated during development. 
+Robustness were determined with independent functional testing of the solution, as well as the amount of unit tests and functional tests each team generated during development. 
 
 Functionality delivered was a simple count against the original specification provided to each team.
 
@@ -427,16 +427,16 @@ Because the teams are not identical, in their size or their capability, a normal
 
 \section{Case study}
 
-The 3rd year computer science students at the University of Pretoria has a year long subject where they complete a project as a team. This is the students first substantial project working as a team. These students are presented with a list of projects they are allowed to tender for, on this list was included two projects for this case study. Both projects listed exactly the same requirements, but it was stipulated that the one project will be run agile and the other waterfall. So some self selection of the students biased towards agile or waterfall workflows are present in the case study. For the tenders, six teams applied, three for each project. The two best applications were selected for this case study.
+The 3rd year computer science students at the University of Pretoria has a year long subject where they complete a project as a team. This is the students first substantial project working as a team. These students are presented with a list of projects they are allowed to tender for, on this list was included two projects for this case study. Both projects listed exactly the same requirements, but it was stipulated that the one project will be run agile and the other waterfall. So some self-selection of the students biased towards agile or waterfall workflows are present in the case study. For the tenders, six teams applied, three for each project. The two best applications were selected for this case study.
 
-The teams were guided by faculty towards the completion of their projects (Dr Solms, Stacy and Freda), and monitored for their ability to work together. The waterfall team presented better in this regards with a more dilligent work ethic, and better team cohesion. The agile team had difficulties assigning roles to the team members but later in the project managed to pull together.
+The teams were guided by faculty towards the completion of their projects (Dr Solms, Stacy and Freda), and monitored for their ability to work together. The waterfall team presented better in this regards with a more diligent work ethic, and better team cohesion. The agile team had difficulties assigning roles to the team members but later in the project managed to pull together.
 
 The agile team selected consists of six members and the waterfall team selected consists of five members. Team members from both teams have some experience with class projects they have completed, served as tutors in various subjects but haven't worked on any large scale projects (multiple team members). Neither teams have experience with DO-178 certified software projects, and have only a theoretical understanding of agile and waterfall development practices.  
 
 The teams submitted their tenders at the beginning of May 2015, and were notified of their successful application a week later. The first meeting between the teams and the client took place end of May after which the teams started their projects in earnest. 
 
 
-The project  assigned was for the development of features on the linphone open source project (TODO reference). Linphone is a mature Android application (TODO say more about linphone). The teams had about 6 months time from then on to complete the following list of identical requirements:
+The project  assigned was for the development of features on the linphone open source project (TODO reference). Linphone is a mature Android application (TODO say more about linphone). The teams had about 6 months' time from then on to complete the following list of identical requirements:
 \\
 \begin{itemize}
 	\item Group chat (Invite additional members to a chat, all members receive chats)
@@ -471,11 +471,11 @@ The results from the case study were normalised to account for the differing ski
 	\caption{Normalisation results}
 \end{figure}  
 
-From the normalisation exercise we can account for the differences in the teams by a factor of 26\% for code bulk, and 38\% for documentation word count. Qualitative comparison for instance documentation quality and robustness of their solution is difficult to account for but it is assumed the difference will be about the same as it too is a function of the teams ability and work ethic.
+From the normalisation exercise we can account for the differences in the teams by a factor of 26\% for code bulk, and 38\% for documentation word count. Qualitative comparison for instance documentation quality and robustness of their solution is difficult to account for but it is assumed the difference will be about the same as it too is a function of the team's ability and work ethic.
 
 \section{Results}
 
-The final projects were demonstrated by the students, and all deliverables and project artifacts were handed in. In the figure we can see a comparison of the projects on the metrics of:
+The final projects were demonstrated by the students, and all deliverables and project artefacts were handed in. In the figure we can see a comparison of the projects on the metrics of:
 \begin{itemize}
 	\item Lines of code
 	\item Lines of comments
@@ -492,13 +492,13 @@ From these quantitative measures the teams differed by approximately 50\%, that 
 \end{figure}
 
 
-With project completion both teams demonstrated their projects to industry and their academic study leaders. During the demonstration the waterfall teams project delivered more functionality and held up better under testing. On the other hand the agile team project had a better user experience compared to the waterfall project, but contained an architectual weakness, a single point of failure in the design.
+With project completion both teams demonstrated their projects to industry and their academic study leaders. During the demonstration the waterfall teams project delivered more functionality and held up better under testing. On the other hand, the agile team project had a better user experience compared to the waterfall project, but contained an architectural weakness, a single point of failure in the design.
 
-\section{Dificulties the teams encountered} 
+\section{Difficulties the teams encountered} 
 
-Both teams struggled with the amount of code already present in linphone, and finding their way in the project (this case study was a brown fiels project). The teams also struggled somewhat with building and running the linphone project. Both teams also struggled a bit with git, especially with linphones use of git submodules which can be a tricky subject.
+Both teams struggled with the amount of code already present in linphone, and finding their way in the project (this case study was a brown fields project). The teams also struggled somewhat with building and running the linphone project. Both teams also struggled a bit with git, especially with linphones use of git submodules which can be a tricky subject.
 
-Furthermore each team struggled with different aspects specific to their project methodology:
+Furthermore, each team struggled with different aspects specific to their project methodology:
 
 \subsection{Waterfall team}
 The waterfall team had what is typically known as an integration party, where the work items from each team member is added together at the end. The estimated work effort to get all these elements to work together was underestimated causing some last minute stress on the team.
@@ -513,13 +513,13 @@ The team had difficulty setting up a continuous integration server, this was mos
 The team also had difficulty with a test driven development methodology, and subsequently not enough unit and functional tests were written during development.
 
 \section{Conclusion}
-One cannot generalise from a single case study, and as such this study cannot speak with sufficient authority on the effectiveness of agile development methodologies versus traditional waterfall methodologies. Nevertheless this study does hint that agile development is not a silver bullet for all project types, and this might explain its poor adoption in highly regulated and safety critical industries. 
+One cannot generalise from a single case study, and as such this study cannot speak with sufficient authority on the effectiveness of agile development methodologies versus traditional waterfall methodologies. Nevertheless, this study does hint that agile development is not a silver bullet for all project types, and this might explain its poor adoption in highly regulated and safety critical industries. 
 
-There is value in the methodology that waterfall forces on a team, especially in getting a team to do proper scoping and architecting of the solution, and in doing so getting the team comfortable with the application domain. This study proposed a variant of agile that was followed in the case study. The agile team had shorter iteration cycles than the waterfall approach, but had an architectual weakness. Since quality attributes of the software is so important for safety critical and regulated industries, it indicates that more emphasis on architectual design is required in this model. 
+There is value in the methodology that waterfall forces on a team, especially in getting a team to do proper scoping and architecting of the solution, and in doing so getting the team comfortable with the application domain. This study proposed a variant of agile that was followed in the case study. The agile team had shorter iteration cycles than the waterfall approach, but had an architectural weakness. Since quality attributes of the software is so important for safety critical and regulated industries, it indicates that more emphasis on architectural design is required in this model. 
 
-The case study was uncontrolled for the effect that a green field vs brown field project have on the result. The case study was done on a very mature and large existing project. Furthermore some of the difficulties the teams faced stemmed from their inexperience, which might also affect the results of this study. 
+The case study was uncontrolled for the effect that a green field vs brown field project has on the result. The case study was done on a very mature and large existing project. Furthermore, some of the difficulties the teams faced stemmed from their inexperience, which might also affect the results of this study. 
 
-The study also had two further weaknesses. The first is that the survey had difficulty measuring agile uptake in the industry because of the poor understanding of the definition of agile amongst respondents. Furthermore even though the case study normalises the results to account for the differences in team strengths, it is unknown if the differences scales linearly between the normalisation exercise and the final case study results.  
+The study also had two further weaknesses. The first is that the survey had difficulty measuring agile uptake in the industry because of the poor understanding of the definition of agile amongst respondents. Furthermore, even though the case study normalises the results to account for the differences in team strengths, it is unknown if the differences scale linearly between the normalisation exercise and the final case study results.  
 
 The true value this case study provides is as a reference for further investigation into the effectiveness of agile and waterfall methodologies, and some of the pitfalls one can avoid when conducting such a study. Additional studies can be used to compare results with this one, and in so doing build a case for the effectiveness in either agile or waterfall development practises, especially in safety critical and regulated environments. 
 
